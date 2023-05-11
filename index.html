@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <div class="container flex">
+            <div class="flex nav-margin">
+                <h1 class="nav-title">Profile</h1>
+                <div class="nav-links flex">
+                    <!-- <p class="flex"> -->
+                    <a class="header-no-underline" href="#">Home</a>
+                    <a class="header-no-underline bold" href="#">My Profile</a>
+                    <a class="header-no-underline" href="#">Find Connections</a>
+                    <!-- </p> -->
+                </div>
+            </div>
+            <div>
+                <button class="btn">Sign Out</button>
+            </div>
+        </div>
+    </header>
+    <div class="container flex">
+        <main>
+            <div class="card user border">
+                <header class="profile-header">
+                    <img class="main-avatar" src="./images/user-circle.png" alt="pfp">
+                </header>
+                <div class="card-body padding-top">
+                    <h2 class="margin-bottom">Jane Doe</h2>
+                    <div class="flex justify-start margin-bottom">
+                        <img class="icon" src="./images/map-marker.png" alt="mapmarker">
+                        <h3>Seattle</h3>
+                    </div>
+                    <p class="margin-bottom">Develop | Engineer | Problem Solver <br>
+                        Aspiring Software Developer</p>
+                    <div class="flex justify-start margin-bottom">
+                        <p>
+                            <a class="gear" href="#">
+                                <img class="icon" src="./images/gear.png" alt="gear">
+                                edit profile
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="card education border">
+                <div class="header">
+                    Education
+                </div>
+                <div class="card-body">
+                    <h4 class="margin-bottom">Coding Dojo - Full Stack Bootcamp</h4>
+                    <p class="margin-bottom">May 2023 - August 2023</p>
+                    <p class="margin-bottom"> Triple Black belt in Python, MERN, and C#...</p>
+                </div>
+            </div>
+        </main>
+        <aside>
+            <div class="card connection-requests border">
+                <div class="flex header justify-center text-center">
+                    <div class="connection-req-notif">
+                        2
+                    </div>
+                    <div>
+                        Connection Requests
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="flex space-between margin-bottom">
+                        <div class="flex">
+                            <img class="connections-icon" src="./images/user-circle.png" alt="pfp">
+                            <h4>Todd E</h4>
+                        </div>
+                        <div class="flex">
+                            <img src="./images/accept-circle.png" alt="accept" class="acceptdecline">
+                            <img src="./images/close-circle.png" alt="decline" class="acceptdecline">
+                        </div>
+                    </div>
+                    <div class="flex space-between">
+                        <div class="flex">
+                            <img class="connections-icon" src="./images/user-circle.png" alt="pfp">
+                            <h4>Phil K</h4>
+                        </div>
+                        <div class="flex">
+                            <img src="./images/accept-circle.png" alt="accept" class="acceptdecline">
+                            <img src="./images/close-circle.png" alt="decline" class="acceptdecline">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card connections border">
+                <div class="flex header justify-center text-center">
+                    <div class="connections-circle">
+                        500+
+                    </div>
+                    <div>
+                        Your Connections
+                    </div>
+                </div>
+                <div class="card-body">
+                    <div class="flex justify-start margin-bottom">
+                        <img src="./images/user-circle.png" alt="pfp" class="connections-icon">
+                        <h4>Adrien D</h4>
+                    </div>
+                    <div class="flex justify-start margin-bottom">
+                        <img src="./images/user-circle.png" alt="pfp" class="connections-icon">
+                        <h4>Anne J</h4>
+                    </div>
+                    <div class="flex justify-start margin-bottom">
+                        <img src="./images/user-circle.png" alt="pfp" class="connections-icon">
+                        <h4>Alayne T</h4>
+                    </div>
+                    <div class="flex justify-start">
+                        <img src="./images/user-circle.png" alt="pfp" class="connections-icon">
+                        <h4>Arry Y</h4>
+                    </div>
+                </div>
+                <div class="footer">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </aside>
+    </div>
+</body>
+
+</html>
