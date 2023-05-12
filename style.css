@@ -16,10 +16,9 @@ header {
 }
 
 .container {
-    width: 1000px;
+    width: 900px;
     margin: 0 auto;
     /*first value is for top and bottom, 2nd for left and right*/
-
 }
 
 .flex {
@@ -163,3 +162,7 @@ aside {
     background-color: white;
     color: black;
 }
+
+/* .your-connections {
+    padding:0px;
+} */
